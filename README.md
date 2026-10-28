@@ -1,3 +1,21 @@
+# This front door has moved
+
+Use [Build with Amplifier](https://michaeljabbour.github.io/amplifier-skill-build-amplifier/) for the current guide, downloadable portable method and evidence scopes. The [maintained source](https://github.com/michaeljabbour/amplifier-skill-build-amplifier) combines the developer topics behind one independently installable entry.
+
+This historical repository and its original method files are retained for existing installs, pinned references and Git history. The payload below has not been replaced.
+
+To install the maintained method, clone the current source and run its installer into your host’s skills-parent directory (shown here as `~/.agents/skills`):
+
+```sh
+git clone https://github.com/michaeljabbour/amplifier-skill-build-amplifier.git
+cd amplifier-skill-build-amplifier
+python3 scripts/capability.py install --dest ~/.agents/skills
+```
+
+The portable install includes its references and license; it starts no service and requires no Amplifier runtime or Memory installation. Native execution has separate prerequisites and evidence limits.
+
+---
+
 # Amplifier CLI Skill
 
 A Claude Code skill that teaches how to build CLI applications using [Amplifier](https://github.com/microsoft/amplifier) foundation patterns.
